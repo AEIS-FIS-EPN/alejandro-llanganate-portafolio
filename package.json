@@ -19,7 +19,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "eslint src/**/*.js src/**/*.jsx"
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "commitlint": "commitlint --edit"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +41,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
